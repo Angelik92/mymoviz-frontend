@@ -38,7 +38,7 @@ useEffect(() => {
     fetch('https://mymoviz-backend-nu-lemon.vercel.app/movies')
     .then(response => response.json())
     .then(data => {
-        setMoviesData(data.results)
+        setMoviesData(data.movies)
     } )
 }, [])
 
